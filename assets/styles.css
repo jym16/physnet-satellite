@@ -245,22 +245,6 @@ h2::after {
   color: var(--pn-accent-dark);
 }
 
-.keyword-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.45rem;
-  margin: 1rem 0 2rem;
-}
-
-.keyword-list span {
-  border: 1px solid var(--pn-border);
-  border-radius: 0.25rem;
-  padding: 0.28rem 0.56rem;
-  background: var(--pn-panel);
-  color: var(--pn-muted);
-  font-size: 0.92rem;
-}
-
 .organizer-list {
   border-left: 4px solid var(--pn-accent);
   background: var(--pn-panel);
@@ -690,4 +674,16 @@ h2::after {
 .organizer-list a {
   color: inherit !important;
   text-decoration: none !important;
+}
+
+@media (max-width: 520px) {
+  .keyword-list {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .keyword-list span {
+    width: max-content;
+    max-width: 100%;
+  }
 }
