@@ -1,0 +1,166 @@
+---
+# title: "Detailed program"
+# subtitle: "Physical Networks, IV Edition | NetSci26, Boston"
+# toc: true
+# toc-depth: 2
+---
+
+::: {.landing-title}
+```{=html}
+<div class="landing-title-image-wrap edition-title-image-wrap">
+  <img
+    class="landing-title-image"
+    src="assets/img/common/landing/2026_landing-title-logo-right-transparent.png"
+    alt="NetSci26 Satellite: Physical Networks IV at NetSci 2026">
+</div>
+```
+
+## Detailed program
+
+::: {.program-list .detailed-program-list}
+
+::: {.program-item}
+<div class="program-time">14:30 to 14:35</div>
+<div class="program-title">Opening Remarks</div>
+<div class="program-speaker">Physical Networks Organizing Committee</div>
+:::
+
+::: {.program-item}
+<div class="program-time">14:35 to 15:05</div>
+<div class="program-title">Network Analysis of “Disordered Metamaterials”</div>
+<div class="program-speaker">Mason A. Porter<sup>1,2</sup></div>
+
+<ul class="affiliations">
+  <li><sup>1</sup> Department of Mathematics, University of California, Los Angeles, CA, USA</li>
+  <li><sup>2</sup> Santa Fe Institute, Santa Fe, NM, USA</li>
+</ul>
+
+<details>
+<p class="abstract-label"><summary>Abstract</summary></p>
+<p class="abstract">Natural materials are often disordered, and their bulk properties are difficult to predict from their structure. In this talk, I will discuss work on the design and analysis of 3D-printed “disordered metamaterials”, which have tunable amounts of disorder. I will discuss our collaboration's pipeline from point clouds of different types to networks using a variety of constructions, and then to 3D-printed metamaterials. I will discuss the impact of point-cloud structure, especially on the amount and magnitude of hyperuniformity, on the local geometric and transport properties of the networks that we create with them. I will also bring physical samples of disordered metamaterials with me to show.</p>
+
+</details>
+:::
+
+::: {.program-item}
+<div class="program-time">15:05 to 15:35</div>
+<div class="program-title">Topological packing statistics of living and non-living matter</div>
+<div class="program-speaker">Jörn Dunkel<sup>1</sup></div>
+
+<ul class="affiliations">
+  <li><sup>1</sup> Department of Mathematics, Massachusetts Institute of Technology, Cambridge, MA, USA</li>
+</ul>
+
+<details>
+<p class="abstract-label"><summary>Abstract</summary></p>
+<p class="abstract">Complex disordered matter is central to a wide range of disciplines, from bacterial colonies and embryonic tissues in biology to foams and granular media in materials science and stellar configurations in astrophysics. Because of the vast differences in composition and scale, comparing structural features across such disparate systems remains challenging. Here, using the statistical properties of Delaunay tessellations, we present a mathematical framework for quantifying topological distances between two- and three-dimensional point clouds. The resulting system-agnostic metric reveals subtle structural differences among bacterial biofilms and between zebrafish brain regions, and it recovers the temporal ordering of embryonic development. We apply this metric to construct a universal topological atlas spanning bacterial biofilms, snowflake yeast, plant shoots, zebrafish brain tissue, organoids, embryonic tissues, foams, colloidal packings, glassy materials, and stellar configurations.</p>
+
+</details>
+:::
+
+::: {.program-item}
+<div class="program-time">15:35 to 16:00</div>
+<div class="program-title">The shape of physical networks</div>
+<div class="program-speaker">Xiangyi Meng<sup>1,2</sup></div>
+
+<ul class="affiliations">
+  <li><sup>1</sup> Network Science and Technology Center, Rensselaer Polytechnic Institute, Troy, NY, USA</li>
+  <li><sup>2</sup> Department of Physics, Applied Physics, and Astronomy, Rensselaer Polytechnic Institute, Troy, NY, USA</li>
+</ul>
+
+<details>
+<p class="abstract-label"><summary>Abstract</summary></p>
+<p class="abstract">The brain's connectome and the vascular system are examples of physical networks: tangible, web-like objects that exist in real space. This physical reality means these networks combine a graph structure, describing their topological connectivity, with a physical structure, capturing the shape of all nodes and links. How do we best describe this physical structure? We can naturally model it as a geometric object, specifically, a manifold constructed in 3D space. To do this, we turn to an unexpected mathematical tool: the framework of covariant closed string field theory, developed in the 1980s. This framework provides an exact correspondence between network-like graphs and smooth surfaces. Using this string-theoretic interpretation, we show that geometric objects acquire network-like shapes precisely because they tend to minimize their surface area. By developing both a Riemann surface formulation and a numerical algorithm to simulate this minimization process, we find that it predicts structural features that challenge traditional models of network formation. Specifically, this minimization predicts the emergence of trifurcations and branching angles that, while defying conventional models such as Steiner graphs, are in excellent agreement with the local tree-like organization of physical networks across diverse domains, from human neurons to corals. We conclude by discussing potential applications of this fundamental discovery, from interpreting structural changes in neurological disorders to designing novel metamaterials.</p>
+
+</details>
+:::
+
+::: {.program-item .break}
+<div class="program-time">16:00 to 16:30</div>
+<div class="program-title">Coffee Break</div>
+:::
+
+::: {.program-item}
+<div class="program-time">16:30 to 17:00</div>
+<div class="program-title">TBA</div>
+<div class="program-speaker">Katia Bertoldi<sup>1</sup></div>
+
+<ul class="affiliations">
+  <li><sup>1</sup> John A. Paulson School of Engineering and Applied Sciences, Harvard University, Cambridge, MA, USA</li>
+</ul>
+
+<details>
+<p class="abstract-label"><summary>Abstract</summary></p>
+<p class="abstract">TBA</p>
+</details>
+:::
+
+::: {.program-item}
+<div class="program-time">17:00 to 17:25</div>
+<div class="program-title">TBA</div>
+<div class="program-speaker">Ivan Bonamassa<sup>1</sup></div>
+
+<ul class="affiliations">
+  <li><sup>1</sup> International Research Center for Complexity Science, Hangzhou International Innovation Institute (H3I) of Beihang University, Hangzhou, China</li>
+</ul>
+
+<details>
+<p class="abstract-label"><summary>Abstract</summary></p>
+<p class="abstract">TBA</p>
+</details>
+:::
+
+::: {.program-item}
+<div class="program-time">17:25 to 17:45</div>
+<div class="program-title">The structure and multifunctionality of physical networks in bone</div>
+<div class="program-speaker">Alexandra Tits<sup>1,3</sup>, Jack Fenwick<sup>2,3</sup>, Ranjith Mudimadugula<sup>1</sup>, Pascal Buenzli<sup>2,3</sup>, Richard Weinkamer<sup>1,3</sup></div>
+
+<ul class="affiliations">
+  <li><sup>1</sup> Department of Biomaterials, Max Planck Institute of Colloids and Interfaces, Potsdam, Germany</li>
+  <li><sup>2</sup> School of Mathematical Sciences, Queensland University of Technology (QUT), Brisbane, Queensland, Australia</li>
+  <li><sup>3</sup> Max Planck Queensland Centre for the Materials Science of Extracellular Matrices, Brisbane and Potsdam</li>
+</ul>
+
+<details>
+<p class="abstract-label"><summary>Abstract</summary></p>
+<p class="abstract">Physical networks of micro- and nanoscopic channels are an ubiquitous feature of biological tissues. Despite their high density, these channels occupy a low volume fraction due to their submicron diameters. The network formed by those channels is crucial not only for transport and signaling, but also for mechanosensation. In bone, this network, known as the lacunocanalicular network (LCN), consists of lacunae, which serve as hubs, and canaliculi, narrow channels connecting them. This porosity network is fluid-filled and accommodates the cell network of osteocytes, including cell bodies and their dendrites. Characteristics of the osteocyte network are similar to the neural network of our brains: it contains 42 billion osteocytes forming 23 trillion connections [1], and one cubic centimeter of human bone comprises 74 kilometers of canaliculi.</p>
+
+<p class="abstract">We have developed an experimental and computational workflow that transforms high-resolution 3D confocal microscopy images of the LCN into spatial network graphs comprising tens of thousands of nodes and edges. Using our custom-built software TINA, Tool for Imaging and Network Analysis, we quantify network architecture in terms of density and spatial heterogeneity. Hydraulic circuit theory principles are applied to calculate the fluid flow through the network structure.</p>
+
+<p class="abstract">Bone mechanobiology has to deal with the paradox that bone is so stiff that resulting deformations are too small to be sensed by cells. As an amplification mechanism, the Fluid Flow Hypothesis was proposed, which states that load-induced fluid flow through the LCN generates forces detectable by cells. Using data on mice, we could demonstrate that predictions about new bone formation in response to mechanical loading had high accuracy when considering the fluid flow through the bone network [2]. Currently, we are investigating how the age-related structural changes in the network, such as the progressive closure of some channels and lacunae, affect the mechanosensitivity of bone.</p>
+
+<p class="abstract">Since during our lifetime new bone is constantly formed, the LCN within bone also has to grow. We observed that regions with a higher rate of bone formation exhibit denser networks. To explore the process of network growth computationally, we developed a mathematical model in which the creation of a new hub in the network during bone formation, that is, cell differentiation into an osteocyte, is coupled to the already existing network. By simulating different coupling mechanisms, we compare the networks obtained to experimental data to identify plausible rules governing network growth.</p>
+
+<p class="abstract">Since the osteocyte network is acting as the "brain" of our bones, any progress in how to interpret its structural and functional characteristics has wide applications in our understanding of bone health.</p>
+
+<p class="abstract">[1] Buenzli, P. R. and Sims, N. A. 2015. Quantifying the osteocyte network in the human skeleton. <em>Bone</em> 75, 144.<br>
+[2] Van Tol, A. F., Schemenz, V., Willie, B. M. and Weinkamer, R. 2020. The mechanoresponse of bone is closely related to the osteocyte lacunocanalicular network architecture. <em>PNAS</em> 117, 32251.</p>
+
+</details>
+:::
+
+::: {.program-item}
+<div class="program-time">17:45 to 18:00</div>
+<div class="program-title">Random network models of ring clusters in hydrocarbon pyrolysis</div>
+<div class="program-speaker">Perrin Ruth<sup>1</sup>, Maria Cameron<sup>1</sup></div>
+
+<ul class="affiliations">
+  <li><sup>1</sup> University of Maryland, College Park, MD, USA</li>
+</ul>
+
+<details>
+<p class="abstract-label"><summary>Abstract</summary></p>
+<p class="abstract">We investigate the structure of overlapping rings in hydrocarbon pyrolysis, a complex system of carbon and hydrogen at extreme temperatures and pressures. Hydrocarbon pyrolysis is a useful test problem because it is relatively simple when studying the carbon skeleton, while still exhibiting complex structures. We predict the formation of a macroscale giant ring cluster using conventional random network models.</p>
+
+<p class="abstract">First, we decompose the ring cluster into a dual graph, i.e., a graph whose nodes represent cycles and whose edges represent pairs of cycles that share edges. We sample cycles from a uniform random minimum cycle basis developed in recent work [1]. The benefit of sampling cycles from a random minimum cycle basis is that it is statistically well-defined and grows linearly with graph size. Larger unique sets of cycles, e.g., the relevant cycles defined as the union of the minimum cycle bases [2], may grow exponentially with the number of nodes.</p>
+
+<p class="abstract">We develop random network models of the dual graph. Connection probabilities are represented as a matrix whose entry \((l_1,l_2)\) denotes the probability that two cycles of lengths \(l_1\) and \(l_2\) are connected by an edge. This matrix exhibits a low-rank structure. We investigate the ring cluster using a random dot product graph [3] type model and a random geometric graph [4] type model. We observe that the model without geometry overestimates the size of the giant ring cluster, and that the model with geometry underestimates the size of the giant ring cluster.</p>
+
+<p class="abstract">[1] P. Ruth and M. Cameron. In review. arXiv:2511.09732<br>
+[2] P. Vismara. <em>Electronic Journal of Combinatorics</em> (1997).<br>
+[3] A. Athreya et al. <em>Journal of Machine Learning Research</em> (2018).<br>
+[4] M. Penrose. <em>Oxford University Press</em> (2003).</p>
+
+</details>
+:::
+

@@ -1,0 +1,33 @@
+{
+  "local_assets_used": [
+    "assets/img/2025/net-of-nets_image.png",
+    "assets/img/2025/netsci2025banner.png",
+    "assets/img/2025/netsci25_logo.svg",
+    "assets/img/2025/speakers/gangyan.jpg",
+    "assets/img/2025/speakers/gyan_prof_pic.jpg",
+    "assets/img/2025/speakers/i_kryven_prof_pic.jpeg",
+    "assets/img/2025/speakers/i_kryven_prof_pic.png",
+    "assets/img/2025/speakers/ibacic_prof_pic.jpg",
+    "assets/img/2025/speakers/mbarthelemy_prof_pic.png",
+    "assets/img/2025/speakers/mlucas_prof_pic.jpg",
+    "assets/img/2026/NetSci2026-logo-full.png",
+    "assets/img/2026/backmatter-flywire-2d_blue.png",
+    "assets/img/2026/backmatter-flywire-2d_blue_compressed.png",
+    "assets/img/2026/speakers/j_dunkel.jpeg",
+    "assets/img/2026/speakers/k_bertoldi.jpg",
+    "assets/img/2026/speakers/m_porter.jpg",
+    "assets/img/2026/speakers/x_meng.jpg",
+    "assets/img/LPN_ER_xmas2.png",
+    "assets/img/LPN_ER_xmas3.png",
+    "assets/img/LPN_ER_xmas4.png",
+    "assets/img/LPN_ER_xmas5.png",
+    "assets/img/abstract-network.svg",
+    "assets/img/curvi.png",
+    "assets/img/curvi2.png",
+    "assets/img/curvi3.png",
+    "assets/img/physnet-logo.svg",
+    "assets/img/physnet-mark.svg",
+    "assets/img/speaker-placeholder.svg"
+  ],
+  "notes": "Local image paths were added to QMD pages where matching supplied assets were available."
+}

@@ -1,0 +1,41 @@
+---
+title: "Archive"
+subtitle: "Past editions of the Physical Networks satellite series"
+---
+
+This page collects the public static archive of past Physical Networks satellite editions.
+
+::: {.edition-grid}
+
+::: {.edition-card}
+### 2026, Boston
+Physical Networks, IV Edition. Current landing page for NetSci26.
+
+[Open current edition](index.qmd){.btn-physnet}
+:::
+
+::: {.edition-card}
+### 2025, NetSci25
+June 2, 2025  
+MECC Maastricht, Maastricht, the Netherlands
+
+[Open edition](editions/2025/index.qmd){.btn-physnet}
+:::
+
+::: {.edition-card}
+### 2024, NetSci24
+Monday, June 17, 2024  
+Québec City Convention Center, Quebec City, Canada
+
+[Open edition](editions/2024/index.qmd){.btn-physnet}
+:::
+
+::: {.edition-card}
+### 2023, NetSci23
+Tuesday, July 11, 2023  
+University of Vienna, Universitätsring 1, 1010 Wien, Austria
+
+[Open edition](editions/2023/index.qmd){.btn-physnet}
+:::
+
+:::
