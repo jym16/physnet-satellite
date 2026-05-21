@@ -53,7 +53,7 @@ website:
 format:
   html:
     theme: default
-    css: assets/styles.scss
+    css: assets/styles.css
     toc: true
     toc-depth: 3
     smooth-scroll: true
