@@ -11,7 +11,7 @@ website:
   title: "Physical Networks"
   description: "Current website and archive for the Physical Networks satellite series."
   site-url: "https://jym16.github.io/physnet-satellite/"
-  repo-url: "https://github.com/jym16/physnet -satellite"
+  repo-url: "https://github.com/jym16/physnet-satellite"
   favicon: assets/img/common/logos/common_logo_physnet-mark.png
   navbar:
     background: "white"
