@@ -34,8 +34,8 @@ website:
             href: editions/2024/index.qmd
           - text: "2023, Vienna"
             href: editions/2023/index.qmd
-      - text: "Sources"
-        href: sources.qmd
+      - text: "Links"
+        href: links.qmd
     right:
       - icon: github
         href: "https://github.com/jym16/physnet-satellite"
