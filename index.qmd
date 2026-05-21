@@ -223,13 +223,6 @@ Traveling funds for the satellite's applicants are available upon reasonable req
 <span>Critical Phenomena</span>
 :::
 
-## Venue
-
-**Hyatt Regency Boston/Cambridge**  
-575 Memorial Drive  
-Cambridge, MA 02139  
-United States
-
 ## Call for contributions {#call}
 
 We welcome contributions spanning multiple disciplines, including mathematics, physics, material science, computer science, and biophysics. Following the success of the first, second, and third satellites, the aim is to create an interdisciplinary venue focusing on short talks and discussions that address key challenges, innovative ideas, applications, and recent advances on physical networks or related topics.
@@ -242,11 +235,13 @@ Submit an abstract to present at Physical Networks IV.
 Topics include 3D and 2D spatial networks, morphology and function, network materials, contact networks, brain networks, packings, and related systems.
 
 **Deadline:** April 30, 2026, Anywhere on Earth.   
-**Submission:** send a one-page abstract to [physnet@ceu.edu](mailto:physnet@ceu.edu).  
+**Submission:** send a one-page abstract to [physnet@ceu.edu](mailto:physnet@ceu.edu).   
+**Status:** The application period is now closed.
 :::
 
 ```{=html}
-<p><a class="btn-physnet" href="mailto:physnet@ceu.edu"><strike>Apply</strike></a></p>
+<!-- <p><a class="btn-physnet" href="mailto:physnet@ceu.edu"><strike>Apply</strike></a></p> -->
+<p><span class="btn-physnet disabled" aria-disabled="true">Application period closed</span></p>
 ```
 
 ## Organizing committee

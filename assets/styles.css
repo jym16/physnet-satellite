@@ -650,3 +650,44 @@ h2::after {
 .edition-hero-image {
   display: none;
 }
+
+.btn-physnet.disabled,
+.btn-physnet[aria-disabled="true"] {
+  border-color: var(--pn-border);
+  background: var(--pn-panel);
+  color: var(--pn-muted) !important;
+  cursor: default;
+  pointer-events: none;
+  opacity: 0.9;
+}
+
+.keyword-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 1rem 0 2rem;
+  align-items: flex-start;
+}
+
+.keyword-list span {
+  display: inline-flex;
+  width: fit-content;
+  max-width: 100%;
+  border: 1px solid var(--pn-border);
+  border-radius: 0.25rem;
+  padding: 0.28rem 0.56rem;
+  background: var(--pn-panel);
+  color: var(--pn-muted);
+  font-size: 0.92rem;
+  line-height: 1.35;
+
+  white-space: nowrap;
+  overflow-wrap: normal;
+  word-break: keep-all;
+  hyphens: none;
+}
+
+.organizer-list a {
+  color: inherit !important;
+  text-decoration: none !important;
+}

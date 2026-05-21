@@ -37,9 +37,6 @@ website:
       - text: "Sources"
         href: sources.qmd
     right:
-      - icon: code-slash
-        href: "https://github.com/jym16/physnet-satellite"
-        aria-label: "Website source"
       - icon: github
         href: "https://github.com/jym16/physnet-satellite"
         aria-label: "GitHub repository"
