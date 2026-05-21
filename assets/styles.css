@@ -21,6 +21,11 @@ body {
   line-height: 1.62;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .navbar {
   border-bottom: 1px solid var(--pn-border);
   box-shadow: none;
