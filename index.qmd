@@ -128,7 +128,7 @@ The interdisciplinary exploration of such a large variety of systems under the u
 <td class="time" data-label="Time">17:00-17:25</td>
 <td data-label="Presenter / Authors"><span class="schedule-person">Ivan Bonamassa</span></td>
 <!-- <td data-label="Affiliation"><span class="schedule-affiliation">Beihang University</span></td> -->
-<td data-label="Title">TBA</td>
+<td data-label="Title">Depletion effects in physical network packings</td>
 </tr>
 <tr>
 <td class="time" data-label="Time">17:25-17:45</td>
