@@ -1,0 +1,54 @@
+[
+  {
+    "year": 2026,
+    "roman": "IV",
+    "title": "Physical Networks IV",
+    "short_title": "PhysNet 2026",
+    "conference": "NetSci 2026",
+    "date": "June 2, 2026",
+    "time": "14:30 to 18:00",
+    "location": "Boston / Cambridge, Massachusetts, USA",
+    "archive_path": "editions/2026/index.qmd",
+    "original_site": "https://sites.google.com/view/physnet26",
+    "status": "archived"
+  },
+  {
+    "year": 2025,
+    "roman": "III",
+    "title": "Physical Networks III",
+    "short_title": "PhysNet 2025",
+    "conference": "NetSci 2025",
+    "date": "June 2, 2025",
+    "time": "14:30 to 18:30",
+    "location": "Maastricht, the Netherlands",
+    "archive_path": "editions/2025/index.qmd",
+    "original_site": "https://sites.google.com/view/physnet25/",
+    "status": "archived"
+  },
+  {
+    "year": 2024,
+    "roman": "II",
+    "title": "Physical Networks II",
+    "short_title": "PhysNet 2024",
+    "conference": "NetSci 2024",
+    "date": "Monday, June 17, 2024",
+    "time": "09:00 to 13:00",
+    "location": "Québec City, Canada",
+    "archive_path": "editions/2024/index.qmd",
+    "original_site": "https://sites.google.com/view/physnet24/",
+    "status": "archived"
+  },
+  {
+    "year": 2023,
+    "roman": "I",
+    "title": "Physical Networks I",
+    "short_title": "PhysNet 2023",
+    "conference": "NetSci 2023",
+    "date": "Tuesday, July 11, 2023",
+    "time": "14:00 to 18:00",
+    "location": "Vienna, Austria",
+    "archive_path": "editions/2023/index.qmd",
+    "original_site": "https://sites.google.com/view/physnet23/",
+    "status": "archived"
+  }
+]

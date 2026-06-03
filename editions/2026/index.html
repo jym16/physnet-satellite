@@ -72,6 +72,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../assets/styles.css">
 </head>
@@ -131,7 +160,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/YOUR-ORG/physnet-satellite-archive"> <i class="bi bi-github" role="img" aria-label="GitHub repository">
+    <a class="nav-link" href="https://github.com/jym16/physnet-satellite"> <i class="bi bi-github" role="img" aria-label="GitHub repository">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -175,31 +204,6 @@ Physical networks aim to understand complex systems subjected to physical constr
 </div>
 <p><a class="btn-physnet" href="#program">View program</a> <a class="btn-physnet secondary" href="https://sites.google.com/view/physnet26">Original Google Site</a></p>
 </div>
-<!-- 
-::: {.meta-strip}
-
-::: {.meta-item}
-<span class="meta-label">Date</span>
-<span class="meta-value">June 2, 2026</span>
-:::
-
-::: {.meta-item}
-<span class="meta-label">Time</span>
-<span class="meta-value">14:30 to 18:00</span>
-:::
-
-::: {.meta-item}
-<span class="meta-label">Venue</span>
-<span class="meta-value">Hyatt Regency Boston/Cambridge, Cambridge, Massachusetts, USA</span>
-:::
-
-::: {.meta-item}
-<span class="meta-label">Room</span>
-<span class="meta-value">Harvard Square A</span>
-:::
-
-::: 
--->
 <div class="event-summary">
 <div class="summary-item">
 <p><strong>Date</strong><br>
@@ -207,11 +211,11 @@ June 2, 2026</p>
 </div>
 <div class="summary-item">
 <p><strong>Time</strong><br>
-14:30 to 18:30</p>
+14:30 to 18:00</p>
 </div>
 <div class="summary-item">
 <p><strong>Venue</strong><br>
-Hyatt Regency Boston/Cambridge, Cambridge, Massachusetts, USA</p>
+Hyatt Regency Boston/Cambridge, Boston / Cambridge, Massachusetts, USA</p>
 </div>
 <div class="summary-item">
 <p><strong>Room</strong><br>
@@ -225,40 +229,35 @@ Harvard Square A</p>
 <p><img class="speaker-photo" src="../../assets/img/2026/speakers/2026_speaker_mason-a-porter_headshot.jpg" alt="Portrait of Mason A. Porter" loading="lazy" onerror="this.onerror=null;this.src='../../assets/img/speaker-placeholder.svg';"></p>
 <section id="mason-a.-porter" class="level3">
 <h3 class="anchored" data-anchor-id="mason-a.-porter">Mason A. Porter</h3>
-<p>Department of Mathematics<br>
-University of California, Los Angeles</p>
+<p>Department of Mathematics, University of California, Los Angeles</p>
 </section>
 </div>
 <div class="speaker-card with-photo">
 <p><img class="speaker-photo" src="../../assets/img/2026/speakers/2026_speaker_jorn-dunkel_headshot.jpg" alt="Portrait of Jörn Dunkel" loading="lazy" onerror="this.onerror=null;this.src='../../assets/img/speaker-placeholder.svg';"></p>
 <section id="jörn-dunkel" class="level3">
 <h3 class="anchored" data-anchor-id="jörn-dunkel">Jörn Dunkel</h3>
-<p>Department of Mathematics<br>
-Massachusetts Institute of Technology</p>
+<p>Department of Mathematics, Massachusetts Institute of Technology</p>
 </section>
 </div>
 <div class="speaker-card with-photo">
 <p><img class="speaker-photo" src="../../assets/img/2026/speakers/2026_speaker_katia-bertoldi_headshot.jpg" alt="Portrait of Katia Bertoldi" loading="lazy" onerror="this.onerror=null;this.src='../../assets/img/speaker-placeholder.svg';"></p>
 <section id="katia-bertoldi" class="level3">
 <h3 class="anchored" data-anchor-id="katia-bertoldi">Katia Bertoldi</h3>
-<p>Harvard John A. Paulson School of Engineering and Applied Sciences<br>
-Harvard University</p>
+<p>Harvard John A. Paulson School of Engineering and Applied Sciences, Harvard University</p>
 </section>
 </div>
 <div class="speaker-card with-photo">
 <p><img class="speaker-photo" src="../../assets/img/2026/speakers/2026_speaker_xiangyi-meng_headshot.jpg" alt="Portrait of Xiangyi Meng" loading="lazy" onerror="this.onerror=null;this.src='../../assets/img/speaker-placeholder.svg';"></p>
 <section id="xiangyi-meng" class="level3">
 <h3 class="anchored" data-anchor-id="xiangyi-meng">Xiangyi Meng</h3>
-<p>Department of Physics, Applied Physics, and Astronomy<br>
-Rensselaer Polytechnic Institute</p>
+<p>Department of Physics, Applied Physics, and Astronomy, Rensselaer Polytechnic Institute</p>
 </section>
 </div>
 <div class="speaker-card with-photo">
 <p><img class="speaker-photo" src="../../assets/img/2026/speakers/2026_speaker_ivan-bonamassa_headshot.jpg" alt="Portrait of Ivan Bonamassa" loading="lazy" onerror="this.onerror=null;this.src='../../assets/img/speaker-placeholder.svg';"></p>
 <section id="ivan-bonamassa" class="level3">
 <h3 class="anchored" data-anchor-id="ivan-bonamassa">Ivan Bonamassa</h3>
-<p>International Research Center for Complexity Science<br>
-Hangzhou International Innovation Institute, Beihang University</p>
+<p>International Research Center for Complexity Science, Hangzhou International Innovation Institute, Beihang University</p>
 </section>
 </div>
 </div>
@@ -282,7 +281,7 @@ Physical Networks Organizing Committee
 14:35 to 15:05
 </div>
 <div class="program-title">
-Network Analysis of “Disordered Metamaterials”
+Network Analysis of ‘Disordered Metamaterials’
 </div>
 <div class="program-speaker">
 Mason A. Porter
@@ -378,19 +377,13 @@ Abstract
 The structure and multifunctionality of physical networks in bone
 </div>
 <div class="program-speaker">
-Alexandra Tits, Jack Fenwick, Ranjith Mudimadugula, Pascal Buenzli, Richard Weinkamer
+Richard Weinkamer
 </div>
 <details>
 <summary>
 Abstract
 </summary>
-<p>Physical networks of micro- and nanoscopic channels are an ubiquitous feature of biological tissues. Despite their high density, these channels occupy a low volume fraction due to their submicron diameters. The network formed by those channels is crucial not only for transport and signaling, but also for mechanosensation. In bone, this network, known as the lacunocanalicular network (LCN), consists of lacunae, which serve as hubs, and canaliculi, narrow channels connecting them. This porosity network is fluid-filled and accommodates the cell network of osteocytes, including cell bodies and their dendrites. Characteristics of the osteocyte network are similar to the neural network of our brains: it contains 42 billion osteocytes forming 23 trillion connections [1], and one cubic centimeter of human bone comprises 74 kilometers of canaliculi.</p>
-<p>We have developed an experimental and computational workflow that transforms high-resolution 3D confocal microscopy images of the LCN into spatial network graphs comprising tens of thousands of nodes and edges. Using our custom-built software TINA, Tool for Imaging and Network Analysis, we quantify network architecture in terms of density and spatial heterogeneity. Hydraulic circuit theory principles are applied to calculate the fluid flow through the network structure.</p>
-<p>Bone mechanobiology has to deal with the paradox that bone is so stiff that resulting deformations are too small to be sensed by cells. As an amplification mechanism, the Fluid Flow Hypothesis was proposed, which states that load-induced fluid flow through the LCN generates forces detectable by cells. Using data on mice, we could demonstrate that predictions about new bone formation in response to mechanical loading had high accuracy when considering the fluid flow through the bone network [2]. Currently, we are investigating how the age-related structural changes in the network, such as the progressive closure of some channels and lacunae, affect the mechanosensitivity of bone.</p>
-<p>Since during our lifetime new bone is constantly formed, the LCN within bone also has to grow. We observed that regions with a higher rate of bone formation exhibit denser networks. To explore the process of network growth computationally, we developed a mathematical model in which the creation of a new hub in the network during bone formation, that is, cell differentiation into an osteocyte, is coupled to the already existing network. By simulating different coupling mechanisms, we compare the networks obtained to experimental data to identify plausible rules governing network growth.</p>
-<p>Since the osteocyte network is acting as the “brain” of our bones, any progress in how to interpret its structural and functional characteristics has wide applications in our understanding of bone health.</p>
-<p>[1] Buenzli, P. R. and Sims, N. A. 2015. Quantifying the osteocyte network in the human skeleton. <em>Bone</em> 75, 144.<br>
-[2] Van Tol, A. F., Schemenz, V., Willie, B. M. and Weinkamer, R. 2020. The mechanoresponse of bone is closely related to the osteocyte lacunocanalicular network architecture. <em>PNAS</em> 117, 32251.</p>
+<p>Physical networks of micro- and nanoscopic channels are an ubiquitous feature of biological tissues. Despite their high density, these channels occupy a low volume fraction due to their submicron diameters. The network formed by those channels is crucial not only for transport and signaling, but also for mechanosensation. In bone, this network, known as the lacunocanalicular network (LCN), consists of lacunae, which serve as hubs, and canaliculi, narrow channels connecting them. This porosity network is fluid-filled and accommodates the cell network of osteocytes, including cell bodies and their dendrites. Characteristics of the osteocyte network are similar to the neural network of our brains: it contains 42 billion osteocytes forming 23 trillion connections [1], and one cubic centimeter of human bone comprises 74 kilometers of canaliculi. We have developed an experimental and computational workflow that transforms high-resolution 3D confocal microscopy images of the LCN into spatial network graphs comprising tens of thousands of nodes and edges. Using our custom-built software TINA, Tool for Imaging and Network Analysis, we quantify network architecture in terms of density and spatial heterogeneity. Hydraulic circuit theory principles are applied to calculate the fluid flow through the network structure. Bone mechanobiology has to deal with the paradox that bone is so stiff that resulting deformations are too small to be sensed by cells. As an amplification mechanism, the Fluid Flow Hypothesis was proposed, which states that load-induced fluid flow through the LCN generates forces detectable by cells. Using data on mice, we could demonstrate that predictions about new bone formation in response to mechanical loading had high accuracy when considering the fluid flow through the bone network [2]. Currently, we are investigating how the age-related structural changes in the network, such as the progressive closure of some channels and lacunae, affect the mechanosensitivity of bone. Since during our lifetime new bone is constantly formed, the LCN within bone also has to grow. We observed that regions with a higher rate of bone formation exhibit denser networks. To explore the process of network growth computationally, we developed a mathematical model in which the creation of a new hub in the network during bone formation, that is, cell differentiation into an osteocyte, is coupled to the already existing network. By simulating different coupling mechanisms, we compare the networks obtained to experimental data to identify plausible rules governing network growth. Since the osteocyte network is acting as the “brain” of our bones, any progress in how to interpret its structural and functional characteristics has wide applications in our understanding of bone health. [1] Buenzli, P. R. and Sims, N. A. 2015. Quantifying the osteocyte network in the human skeleton. Bone 75, 144. [2] Van Tol, A. F., Schemenz, V., Willie, B. M. and Weinkamer, R. 2020. The mechanoresponse of bone is closely related to the osteocyte lacunocanalicular network architecture. PNAS 117, 32251.</p>
 </details>
 </div>
 <div class="program-item">
@@ -401,19 +394,13 @@ Abstract
 Random network models of ring clusters in hydrocarbon pyrolysis
 </div>
 <div class="program-speaker">
-Perrin Ruth, Maria Cameron
+Perrin Ruth
 </div>
 <details>
 <summary>
 Abstract
 </summary>
-<p>We investigate the structure of overlapping rings in hydrocarbon pyrolysis, a complex system of carbon and hydrogen at extreme temperatures and pressures. Hydrocarbon pyrolysis is a useful test problem because it is relatively simple when studying the carbon skeleton, while still exhibiting complex structures. We predict the formation of a macroscale giant ring cluster using conventional random network models.</p>
-<p>First, we decompose the ring cluster into a dual graph, i.e., a graph whose nodes represent cycles and whose edges represent pairs of cycles that share edges. We sample cycles from a uniform random minimum cycle basis developed in recent work [1]. The benefit of sampling cycles from a random minimum cycle basis is that it is statistically well-defined and grows linearly with graph size. Larger unique sets of cycles, e.g., the relevant cycles defined as the union of the minimum cycle bases [2], may grow exponentially with the number of nodes.</p>
-<p>We develop random network models of the dual graph. Connection probabilities are represented as a matrix whose entry ((l_1,l_2)) denotes the probability that two cycles of lengths (l_1) and (l_2) are connected by an edge. This matrix exhibits a low-rank structure. We investigate the ring cluster using a random dot product graph [3] type model and a random geometric graph [4] type model. We observe that the model without geometry overestimates the size of the giant ring cluster, and that the model with geometry underestimates the size of the giant ring cluster.</p>
-<p>[1] P. Ruth and M. Cameron. In review. arXiv:2511.09732<br>
-[2] P. Vismara. <em>Electronic Journal of Combinatorics</em> (1997).<br>
-[3] A. Athreya et al.&nbsp;<em>Journal of Machine Learning Research</em> (2018).<br>
-[4] M. Penrose. <em>Oxford University Press</em> (2003).</p>
+<p>We investigate the structure of overlapping rings in hydrocarbon pyrolysis, a complex system of carbon and hydrogen at extreme temperatures and pressures. Hydrocarbon pyrolysis is a useful test problem because it is relatively simple when studying the carbon skeleton, while still exhibiting complex structures. We predict the formation of a macroscale giant ring cluster using conventional random network models. First, we decompose the ring cluster into a dual graph, i.e., a graph whose nodes represent cycles and whose edges represent pairs of cycles that share edges. We sample cycles from a uniform random minimum cycle basis developed in recent work [1]. The benefit of sampling cycles from a random minimum cycle basis is that it is statistically well-defined and grows linearly with graph size. Larger unique sets of cycles, e.g., the relevant cycles defined as the union of the minimum cycle bases [2], may grow exponentially with the number of nodes. We develop random network models of the dual graph. Connection probabilities are represented as a matrix whose entry <span class="math inline">\((l_1,l_2)\)</span> denotes the probability that two cycles of lengths <span class="math inline">\(l_1\)</span> and <span class="math inline">\(l_2\)</span> are connected by an edge. This matrix exhibits a low-rank structure. We investigate the ring cluster using a random dot product graph [3] type model and a random geometric graph [4] type model. We observe that the model without geometry overestimates the size of the giant ring cluster, and that the model with geometry underestimates the size of the giant ring cluster. [1] P. Ruth and M. Cameron. In review. arXiv:2511.09732. [2] P. Vismara. Electronic Journal of Combinatorics (1997). [3] A. Athreya et al.&nbsp;Journal of Machine Learning Research (2018). [4] M. Penrose. Oxford University Press (2003).</p>
 </details>
 </div>
 </div>
@@ -453,9 +440,9 @@ Abstract
 <section id="archival-note" class="level2">
 <h2 class="anchored" data-anchor-id="archival-note">Archival note</h2>
 <div class="archive-note">
-<p>Original public page: <a href="https://sites.google.com/view/physnet26/" class="uri">https://sites.google.com/view/physnet26/</a><br>
-Detailed program page: <a href="https://sites.google.com/view/physnet26/home/detailed-program" class="uri">https://sites.google.com/view/physnet26/home/detailed-program</a><br>
-This is a curated static reconstruction intended for long-term preservation on GitHub Pages.</p>
+<p>Original public page: <a href="https://sites.google.com/view/physnet26" class="uri">https://sites.google.com/view/physnet26</a></p>
+<p>Detailed program page: <a href="https://sites.google.com/view/physnet26/home/detailed-program" class="uri">https://sites.google.com/view/physnet26/home/detailed-program</a></p>
+<p>This is a curated static reconstruction intended for long-term preservation on GitHub Pages.</p>
 </div>
 
 
@@ -535,7 +522,7 @@ This is a curated static reconstruction intended for long-term preservation on G
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/YOUR-ORG\.github\.io\/physnet-satellite-archive\/");
+        var filterRegex = new RegExp("https:\/\/jym16\.github\.io\/physnet-satellite\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

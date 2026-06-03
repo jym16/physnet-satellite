@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 120" role="img" aria-label="Physical Networks IV logo">
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a73e8"/>
+      <stop offset="1" stop-color="#0b4f8a"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(22,17)" fill="none" stroke="url(#edge)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M15,67 C35,25 63,20 85,45 S134,78 158,27" stroke-width="7"/>
+    <path d="M18,70 C58,92 111,91 155,62" stroke-width="5" opacity="0.75"/>
+    <path d="M85,45 C100,18 125,18 158,27" stroke-width="4" opacity="0.6"/>
+  </g>
+  <g fill="#1a73e8" stroke="#ffffff" stroke-width="3">
+    <circle cx="37" cy="84" r="8"/>
+    <circle cx="79" cy="43" r="9"/>
+    <circle cx="107" cy="62" r="7"/>
+    <circle cx="146" cy="88" r="8"/>
+    <circle cx="180" cy="44" r="8"/>
+  </g>
+  <text x="215" y="53" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#202124">Physical Networks IV</text>
+  <text x="216" y="83" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="500" fill="#5f6368">NetSci 2026 Satellite</text>
+</svg>

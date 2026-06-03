@@ -1,1 +1,1 @@
-Sitemap: https://YOUR-ORG.github.io/physnet-satellite-archive/sitemap.xml
+Sitemap: https://jym16.github.io/physnet-satellite/sitemap.xml

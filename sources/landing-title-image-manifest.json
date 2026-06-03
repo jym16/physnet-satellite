@@ -1,0 +1,50 @@
+[
+  {
+    "year": "2023",
+    "layout": "tight crop; title left aligned; logo right; no overlap",
+    "transparent_image": "assets/img/common/landing/2023_landing-title-logo-right-transparent.png",
+    "size_px": [
+      1658,
+      359
+    ],
+    "text_width_px": 1306,
+    "gap_px": 72,
+    "logo_width_px": 280
+  },
+  {
+    "year": "2024",
+    "layout": "tight crop; title left aligned; logo right; no overlap",
+    "transparent_image": "assets/img/common/landing/2024_landing-title-logo-right-transparent.png",
+    "size_px": [
+      1702,
+      359
+    ],
+    "text_width_px": 1350,
+    "gap_px": 72,
+    "logo_width_px": 280
+  },
+  {
+    "year": "2025",
+    "layout": "tight crop; title left aligned; logo right; no overlap",
+    "transparent_image": "assets/img/common/landing/2025_landing-title-logo-right-transparent.png",
+    "size_px": [
+      1746,
+      359
+    ],
+    "text_width_px": 1394,
+    "gap_px": 72,
+    "logo_width_px": 280
+  },
+  {
+    "year": "2026",
+    "layout": "tight crop; title left aligned; logo right; no overlap",
+    "transparent_image": "assets/img/common/landing/2026_landing-title-logo-right-transparent.png",
+    "size_px": [
+      1750,
+      359
+    ],
+    "text_width_px": 1398,
+    "gap_px": 72,
+    "logo_width_px": 280
+  }
+]
