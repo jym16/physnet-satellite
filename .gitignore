@@ -2,3 +2,5 @@
 /_freeze/
 /.DS_Store
 docs/
+sources/
+*_files/

@@ -49,7 +49,7 @@
 ::: {.event-summary}
 ::: {.summary-item}
 **Date**  
-June 2, 2026
+June 2, 2025
 :::
 
 ::: {.summary-item}
