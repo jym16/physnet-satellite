@@ -9,9 +9,9 @@ project:
 
 website:
   title: "Physical Networks"
-  description: "Current website and archive for the Physical Networks satellite series."
-  site-url: "https://jym16.github.io/physnet-satellite/"
-  repo-url: "https://github.com/jym16/physnet-satellite"
+  description: "Website and archive for the Physical Networks satellite series."
+  site-url: "https://YOUR-ORG.github.io/physnet-satellite-archive/"
+  repo-url: "https://github.com/YOUR-ORG/physnet-satellite-archive"
   favicon: assets/img/common/logos/common_logo_physnet-mark.png
   navbar:
     background: "white"
@@ -20,14 +20,12 @@ website:
     left:
       - text: "Home"
         href: index.qmd
-      - text: "Program"
-        href: program.qmd
+      - text: "Archive"
+        href: archive.qmd
       - text: "Editions"
         menu:
-          - text: "Archive"
-            href: archive.qmd
           - text: "2026, Boston"
-            href: index.qmd
+            href: editions/2026/index.qmd
           - text: "2025, Maastricht"
             href: editions/2025/index.qmd
           - text: "2024, Québec City"
@@ -38,7 +36,7 @@ website:
         href: links.qmd
     right:
       - icon: github
-        href: "https://github.com/jym16/physnet-satellite"
+        href: "https://github.com/YOUR-ORG/physnet-satellite-archive"
         aria-label: "GitHub repository"
   page-footer:
     left: "Physical Networks Satellite Series"
@@ -54,7 +52,7 @@ format:
     toc: true
     toc-depth: 3
     smooth-scroll: true
-    link-external-icon: true
+    link-external-icon: false
     link-external-newwindow: true
     code-copy: true
     anchor-sections: true

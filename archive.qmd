@@ -1,41 +1,55 @@
 ---
 title: "Archive"
-subtitle: "Past editions of the Physical Networks satellite series"
+subtitle: "Physical Networks satellite editions"
+toc: false
 ---
 
-This page collects the public static archive of past Physical Networks satellite editions.
+The archive collects static pages for past editions of the Physical Networks satellite series.
 
 ::: {.edition-grid}
 
 ::: {.edition-card}
-### 2026, Boston
-Physical Networks, IV Edition. Current landing page for NetSci26.
+### [Physical Networks IV](editions/2026/index.qmd)
 
-[Open current edition](index.qmd){.btn-physnet}
+**NetSci 2026**  
+Boston / Cambridge, Massachusetts  
+June 2, 2026
+
+[Original site](https://sites.google.com/view/physnet26){.btn-physnet .secondary}
 :::
 
 ::: {.edition-card}
-### 2025, NetSci25
-June 2, 2025  
-MECC Maastricht, Maastricht, the Netherlands
+### [Physical Networks III](editions/2025/index.qmd)
 
-[Open edition](editions/2025/index.qmd){.btn-physnet}
+**NetSci 2025**  
+Maastricht, the Netherlands  
+June 2, 2025
+
+[Original site](https://sites.google.com/view/physnet25/){.btn-physnet .secondary}
 :::
 
 ::: {.edition-card}
-### 2024, NetSci24
-Monday, June 17, 2024  
-Québec City Convention Center, Quebec City, Canada
+### [Physical Networks II](editions/2024/index.qmd)
 
-[Open edition](editions/2024/index.qmd){.btn-physnet}
+**NetSci 2024**  
+Québec City, Canada  
+June 17, 2024
+
+[Original site](https://sites.google.com/view/physnet24/){.btn-physnet .secondary}
 :::
 
 ::: {.edition-card}
-### 2023, NetSci23
-Tuesday, July 11, 2023  
-University of Vienna, Universitätsring 1, 1010 Wien, Austria
+### [Physical Networks I](editions/2023/index.qmd)
 
-[Open edition](editions/2023/index.qmd){.btn-physnet}
+**NetSci 2023**  
+Vienna, Austria  
+July 11, 2023
+
+[Original site](https://sites.google.com/view/physnet23/){.btn-physnet .secondary}
 :::
 
+:::
+
+::: {.archive-note}
+The archive pages are curated static reconstructions of public event websites. They are maintained for historical reference and continuity of the satellite series.
 :::
