@@ -1,3 +1,7 @@
+<!--
+Generated file. Do not edit directly.
+Edit data/series.yml, data/editions/*.yml, or templates/archive.qmd.j2 instead.
+-->
 ---
 title: "Archive"
 subtitle: "Physical Networks satellite editions"
@@ -8,15 +12,17 @@ The archive collects static pages for past editions of the Physical Networks sat
 
 ::: {.edition-grid}
 
+
 ::: {.edition-card}
 ### [Physical Networks IV](editions/2026/index.qmd)
 
 **NetSci 2026**  
-Boston / Cambridge, Massachusetts  
+Boston / Cambridge, Massachusetts, USA  
 June 2, 2026
 
 [Original site](https://sites.google.com/view/physnet26){.btn-physnet .secondary}
 :::
+
 
 ::: {.edition-card}
 ### [Physical Networks III](editions/2025/index.qmd)
@@ -28,28 +34,31 @@ June 2, 2025
 [Original site](https://sites.google.com/view/physnet25/){.btn-physnet .secondary}
 :::
 
+
 ::: {.edition-card}
 ### [Physical Networks II](editions/2024/index.qmd)
 
 **NetSci 2024**  
 Québec City, Canada  
-June 17, 2024
+Monday, June 17, 2024
 
 [Original site](https://sites.google.com/view/physnet24/){.btn-physnet .secondary}
 :::
+
 
 ::: {.edition-card}
 ### [Physical Networks I](editions/2023/index.qmd)
 
 **NetSci 2023**  
 Vienna, Austria  
-July 11, 2023
+Tuesday, July 11, 2023
 
 [Original site](https://sites.google.com/view/physnet23/){.btn-physnet .secondary}
 :::
 
+
 :::
 
 ::: {.archive-note}
-The archive pages are curated static reconstructions of public event websites. They are maintained for historical reference and continuity of the satellite series.
+The archive pages are generated from edition-level YAML files in `data/editions/`. They are curated static reconstructions of public event websites and locally prepared program material.
 :::

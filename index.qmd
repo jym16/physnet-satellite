@@ -1,3 +1,7 @@
+<!--
+Generated file. Do not edit directly.
+Edit data/series.yml, data/editions/*.yml, or templates/home_archive.qmd.j2 instead.
+-->
 ---
 title: ""
 toc: false
@@ -15,7 +19,7 @@ listing: false
 
 The **Physical Networks** satellite series brings together researchers working on networks whose nodes and links are physical objects embedded in space. The series focuses on how spatial embedding, geometry, volume exclusion, packing, material constraints, and physical interactions shape network structure and function.
 
-The fourth edition, **Physical Networks IV @ NetSci 2026**, has concluded and is now part of the archive.
+The latest archived edition is **Physical Networks IV @ NetSci 2026**.
 
 ::: {.quick-links}
 [View archive](archive.qmd){.quick-link}
@@ -23,19 +27,22 @@ The fourth edition, **Physical Networks IV @ NetSci 2026**, has concluded and is
 [PhysNet 2025](editions/2025/index.qmd){.quick-link}
 [PhysNet 2024](editions/2024/index.qmd){.quick-link}
 [PhysNet 2023](editions/2023/index.qmd){.quick-link}
+
 :::
 
 ## Archive
 
 ::: {.edition-grid}
 
+
 ::: {.edition-card}
 ### [Physical Networks IV](editions/2026/index.qmd)
 
 NetSci 2026  
-Boston / Cambridge, Massachusetts  
+Boston / Cambridge, Massachusetts, USA  
 June 2, 2026
 :::
+
 
 ::: {.edition-card}
 ### [Physical Networks III](editions/2025/index.qmd)
@@ -45,21 +52,24 @@ Maastricht, the Netherlands
 June 2, 2025
 :::
 
+
 ::: {.edition-card}
 ### [Physical Networks II](editions/2024/index.qmd)
 
 NetSci 2024  
 Québec City, Canada  
-June 17, 2024
+Monday, June 17, 2024
 :::
+
 
 ::: {.edition-card}
 ### [Physical Networks I](editions/2023/index.qmd)
 
 NetSci 2023  
 Vienna, Austria  
-July 11, 2023
+Tuesday, July 11, 2023
 :::
+
 
 :::
 

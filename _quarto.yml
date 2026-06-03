@@ -9,9 +9,9 @@ project:
 
 website:
   title: "Physical Networks"
-  description: "Website and archive for the Physical Networks satellite series."
-  site-url: "https://YOUR-ORG.github.io/physnet-satellite-archive/"
-  repo-url: "https://github.com/YOUR-ORG/physnet-satellite-archive"
+  description: "Website and archive for the Physical Networks NetSci satellite series."
+  site-url: "https://jym16.github.io/physnet-satellite/"
+  repo-url: "https://github.com/jym16/physnet-satellite"
   favicon: assets/img/common/logos/common_logo_physnet-mark.png
   navbar:
     background: "white"
@@ -36,7 +36,7 @@ website:
         href: links.qmd
     right:
       - icon: github
-        href: "https://github.com/YOUR-ORG/physnet-satellite-archive"
+        href: "https://github.com/jym16/physnet-satellite"
         aria-label: "GitHub repository"
   page-footer:
     left: "Physical Networks Satellite Series"

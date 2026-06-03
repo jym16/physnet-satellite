@@ -1,32 +1,21 @@
-title: "Physical Networks"
-subtitle: "NetSci Satellite Series"
-description: >-
-  The Physical Networks satellite series brings together researchers working on
-  networks whose nodes and links are physical objects embedded in space.
-
-scope:
-  - physical networks
-  - spatial networks
-  - network geometry
-  - soft and disordered matter
-  - biological networks
-  - metamaterials
-  - random packings
-  - topology and geometry of embedded networks
-
-archive:
-  latest_edition: 2026
-  editions:
-    - 2026
-    - 2025
-    - 2024
-    - 2023
-
+title: Physical Networks
+subtitle: NetSci Satellite Series
+description: The Physical Networks satellite series brings together researchers working
+  on networks whose nodes and links are physical objects embedded in space.
+home:
+  mode: archive
+  current_year: null
+  latest_year: 2026
 assets:
-  landing_image: "assets/img/common/landing/series_landing-title-logo-right-transparent.png"
-  logo: "assets/img/common/logos/common_logo_physnet-mark-transparent.png"
-
-repository_note: >-
-  This repository is intended as a public-facing website and static archive.
-  Private organizing material and personal contact information should not be
-  stored here.
+  series_landing_image: assets/img/common/landing/series_landing-title-logo-right-transparent.png
+  series_landing_image_left: assets/img/common/landing/series_landing-title-logo-left-transparent.png
+  logo: assets/img/common/logos/common_logo_physnet-mark-transparent.png
+archive:
+  years:
+  - 2026
+  - 2025
+  - 2024
+  - 2023
+source_note: This repository is intended as a public-facing website and static archive.
+  Private organizing material and personal contact information should not be stored
+  here.

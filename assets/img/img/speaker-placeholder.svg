@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640" role="img" aria-label="Speaker image placeholder">
+  <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#eef3f7"/><stop offset="1" stop-color="#d7e2ea"/></linearGradient></defs>
+  <rect width="640" height="640" fill="url(#g)"/>
+  <circle cx="320" cy="238" r="92" fill="#7d8d99" opacity="0.55"/>
+  <path d="M128 548c20-98 94-164 192-164s172 66 192 164" fill="#7d8d99" opacity="0.55"/>
+  <g stroke="#b5c2cc" stroke-width="9" fill="none" opacity="0.65"><path d="M122 150c72-58 161-88 266-77"/><path d="M500 169c42 58 51 133 27 220"/><path d="M132 490c-40-68-43-138-9-210"/></g>
+</svg>
