@@ -98,8 +98,8 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../program.html"> 
-<span class="menu-text">Program</span></a>
+    <a class="nav-link" href="../../archive.html"> 
+<span class="menu-text">Archive</span></a>
   </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-editions" role="link" data-bs-toggle="dropdown" aria-expanded="false">
@@ -107,11 +107,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-editions">    
         <li>
-    <a class="dropdown-item" href="../../archive.html">
- <span class="dropdown-text">Archive</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../index.html">
+    <a class="dropdown-item" href="../../editions/2026/index.html">
  <span class="dropdown-text">2026, Boston</span></a>
   </li>  
         <li>
@@ -135,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/jym16/physnet-satellite"> <i class="bi bi-github" role="img" aria-label="GitHub repository">
+    <a class="nav-link" href="https://github.com/YOUR-ORG/physnet-satellite-archive"> <i class="bi bi-github" role="img" aria-label="GitHub repository">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -561,7 +557,7 @@ This is a curated static reconstruction intended for long-term preservation on G
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/jym16\.github\.io\/physnet-satellite\/");
+        var filterRegex = new RegExp("https:\/\/YOUR-ORG\.github\.io\/physnet-satellite-archive\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -580,8 +576,6 @@ This is a curated static reconstruction intended for long-term preservation on G
             if (link.getAttribute("rel") === null) {
               link.setAttribute("rel", "noopener");
             }
-            // default icon
-            link.classList.add("external");
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

@@ -1,0 +1,136 @@
+year: 2026
+roman: "IV"
+title: "Physical Networks IV"
+short_title: "PhysNet 2026"
+kicker: "NetSci26 Satellite"
+conference: "NetSci 2026"
+status: "archived"
+
+date: "June 2, 2026"
+time: "14:30 to 18:00"
+location: "Boston / Cambridge, Massachusetts, USA"
+venue:
+  name: "Hyatt Regency Boston/Cambridge"
+  room: "Harvard Square A"
+  city: "Cambridge"
+  state: "Massachusetts"
+  country: "USA"
+  address_public: "575 Memorial Drive, Cambridge, MA 02139, United States"
+
+urls:
+  original_site: "https://sites.google.com/view/physnet26"
+  detailed_program: "https://sites.google.com/view/physnet26/home/detailed-program"
+  archive_page: "editions/2026/index.qmd"
+
+assets:
+  landing_image: "../../assets/img/common/landing/2026_landing-title-logo-right-transparent.png"
+  speaker_placeholder: "../../assets/img/speaker-placeholder.svg"
+
+description: >-
+  Physical networks aim to understand complex systems subjected to physical
+  constraints, such as volume exclusion or repulsive forces, that shape their
+  topological and geometric organization.
+
+speakers:
+  - name: "Mason A. Porter"
+    affiliation: "Department of Mathematics, University of California, Los Angeles"
+    image: "../../assets/img/2026/speakers/2026_speaker_mason-a-porter_headshot.jpg"
+
+  - name: "Jörn Dunkel"
+    affiliation: "Department of Mathematics, Massachusetts Institute of Technology"
+    image: "../../assets/img/2026/speakers/2026_speaker_jorn-dunkel_headshot.jpg"
+
+  - name: "Katia Bertoldi"
+    affiliation: "Harvard John A. Paulson School of Engineering and Applied Sciences, Harvard University"
+    image: "../../assets/img/2026/speakers/2026_speaker_katia-bertoldi_headshot.jpg"
+
+  - name: "Xiangyi Meng"
+    affiliation: "Department of Physics, Applied Physics, and Astronomy, Rensselaer Polytechnic Institute"
+    image: "../../assets/img/2026/speakers/2026_speaker_xiangyi-meng_headshot.jpg"
+
+  - name: "Ivan Bonamassa"
+    affiliation: "International Research Center for Complexity Science, Hangzhou International Innovation Institute, Beihang University"
+    image: "../../assets/img/2026/speakers/2026_speaker_ivan-bonamassa_headshot.jpg"
+
+program:
+  - time: "14:30 to 14:35"
+    title: "Opening Remarks"
+    presenter: "Physical Networks Organizing Committee"
+    type: "opening"
+
+  - time: "14:35 to 15:05"
+    title: "Network Analysis of “Disordered Metamaterials”"
+    presenter: "Mason A. Porter"
+    type: "talk"
+
+  - time: "15:05 to 15:35"
+    title: "Topological packing statistics of living and non-living matter"
+    presenter: "Jörn Dunkel"
+    type: "talk"
+
+  - time: "15:35 to 16:00"
+    title: "The shape of physical networks"
+    presenter: "Xiangyi Meng"
+    type: "talk"
+
+  - time: "16:00 to 16:30"
+    title: "Coffee Break"
+    presenter: ""
+    type: "break"
+
+  - time: "16:30 to 17:00"
+    title: "TBA"
+    presenter: "Katia Bertoldi"
+    type: "talk"
+
+  - time: "17:00 to 17:25"
+    title: "TBA"
+    presenter: "Ivan Bonamassa"
+    type: "talk"
+
+  - time: "17:25 to 17:45"
+    title: "The structure and multifunctionality of physical networks in bone"
+    presenter: "Richard Weinkamer"
+    type: "contributed talk"
+
+  - time: "17:45 to 18:00"
+    title: "Random network models of ring clusters in hydrocarbon pyrolysis"
+    presenter: "Perrin Ruth"
+    type: "contributed talk"
+
+keywords:
+  - "Network and Soft Materials"
+  - "Statistical Topology"
+  - "Random Packings"
+  - "Rheology and Jamming"
+  - "Network Geometry"
+  - "Polymer Physics"
+  - "Critical Phenomena"
+
+organizers:
+  - name: "Márton Pósfai"
+    affiliation: "Department of Network and Data Science, CEU"
+
+  - name: "Jasper van der Kolk"
+    affiliation: "Department of Network and Data Science, CEU"
+
+  - name: "Ting-Ting Gao"
+    affiliation: "Network Science Institute, Northeastern University"
+
+  - name: "Jun Yamamoto"
+    affiliation: "Department of Network and Data Science, CEU"
+
+call_for_contributions:
+  status: "closed"
+  deadline: "April 30, 2026, Anywhere on Earth"
+  description: >-
+    The satellite welcomed contributions spanning mathematics, physics,
+    material science, computer science, biophysics, and related areas.
+    Topics included 3D and 2D spatial networks, morphology and function,
+    network materials, contact networks, brain networks, packings, and
+    related systems.
+
+source_note: >-
+  This file summarizes public information from the PhysNet26 Google Site
+  and locally prepared program material. Personal email addresses are omitted
+  from this public repository metadata.
